@@ -76,3 +76,28 @@ Max 10 tags on an object.
 Max 50 tags on a bucket.
 Key must be unique.
 Key and Values are case sensitive.
+
+## Object LifeCycle Managment
+It's a way to manage cost by ensuring objects are automatically moved to the most cost effective storage class.
+
+## ACL (Access Control List)
+Grant high level permissions
+Typically used for grantint access to other AWS accounts.
+Quickly make a bucket or file public.
+No complex rule language.
+
+## Bucket Policy
+ALLOWS or DENIES a specific PRINCIPAL to perform certain ACTIONS on specific RESOURCES
+A JSON document attached to the bucket.
+a PRINCIPAL could be an IAM USER, separate AWS account, or could be another AWS Service.
+RESOURCES - buckets, objects, tags.
+Grant very granular permissions.
+Tools built in to AWS to help generate these.
+
+## IAM Policies, Users and Groups
+A policy is a JSON document that allows/denies a user, group or service to perfom specific ACTIONS on specific RESOURCES.
+A policy can be attached to a single user or group.
+Users can be assigned to groups to make managin security policies easier.
+
+## Cross Region Replication
+Enables automatic, asynchronous copying of objects across buckets in different AWS Regions. Buckets configured for cross-region replication can be owned by the same AWS account or by different accounts.
