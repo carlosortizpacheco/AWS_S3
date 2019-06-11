@@ -63,4 +63,16 @@ Pay for amount of data stored.
 Per GB Pricing Generally goes down the more data you store.
 Pricing differs across regions.
 
+## Object Tags
+Object Tags are a Key-Value pair.
+Tags are used for categorizing storage.
+Use tags to allow a user/group to read/write objects with a tag.
+Create lifecycle rules to move objects based on a tag to cheaper storage tiers.
+Use as filters for Analytics and Metrics.
+Track costs based on tag.
 
+### Tag Restrictions.
+Max 10 tags on an object.
+Max 50 tags on a bucket.
+Key must be unique.
+Key and Values are case sensitive.
